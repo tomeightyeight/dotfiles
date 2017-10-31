@@ -1,0 +1,37 @@
+[user]
+  name = Tom Humphris
+  email = tom@muska.co.uk
+[core]
+  editor = nano
+  excludesfile = ~/.gitignore-global
+[diff]
+  tool = vimdiff
+  compactionHeuristic = true
+[alias]
+  st = status
+  ci = commit -v
+  co = checkout
+  di = diff
+  amend = commit --amend
+  aa = add --all
+  fa = fetch --all
+  pom = push origin master
+  b = branch
+  ignored = !git ls-files -v | grep "^[[:lower:]]"
+  prune-local = !git branch --merged | tr -d '*' | grep -v dev | xargs -n1 git branch -d
+[filter "hawser"]
+  clean = git hawser clean %f
+  smudge = git hawser smudge %f
+  required = true
+[filter "lfs"]
+  clean = git-lfs clean %f
+  smudge = git-lfs smudge %f
+  required = true
+[filter "media"]
+  required = true
+  clean = git media clean %f
+  smudge = git media smudge %f
+[url "git@github.com:"]
+  insteadOf = https://github.com/
+[pull]
+  rebase = true
