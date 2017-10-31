@@ -1,0 +1,8 @@
+set mouse
+
+include ~/.nano/syntax/html.nanorc
+include ~/.nano/syntax/css.nanorc
+include ~/.nano/syntax/php.nanorc
+include ~/.nano/syntax/javascript.nanorc
+include ~/.nano/syntax/json.nanorc
+include ~/.nano/syntax/xml.nanorc
