@@ -1,0 +1,30 @@
+{
+	"always_show_minimap_viewport": true,
+	"color_scheme": "Packages/Monocyanide Colorscheme/Monocyanide ColorScheme - Constrasted Semi.tmTheme",
+	"font_options":
+	[
+		"gray_antialias",
+		"subpixel_antialias"
+	],
+	"font_size": 16,
+	"icon_file_type_enable": true,
+	"ignored_packages":
+	[
+		"JavaScript",
+		"TrailingSpaces",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"overlay_scroll_bars": "enabled",
+	"rulers": 80,
+	"tab_size": 4,
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_wrap": false
+}
