@@ -1,0 +1,33 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Babel",
+		"Delete Current File",
+		"DocBlockr",
+		"Git",
+		"GitGutter",
+		"Grunt Snippets",
+		"Handlebars",
+		"Markdown Extended",
+		"MarkdownEditing",
+		"Material Theme",
+		"Monocyanide Colorscheme",
+		"Package Control",
+		"PHP Companion",
+		"PHP Completions Kit",
+		"PHPIntel",
+		"Pretty JSON",
+		"Sass",
+		"SFTP",
+		"SublimeLinter",
+		"Theme - Cyanide",
+		"Themr",
+		"TrailingSpaces",
+		"Vue Syntax Highlight"
+	]
+}
