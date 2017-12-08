@@ -31,8 +31,8 @@ man() {
 
 alias siteinstall='composer install; npm install;'
 alias gitlog='git log --oneline --decorate'
-alias mouseon='tmux setw -g mode-mouse on'
-alias mouseoff='tmux setw -g mode-mouse off'
+alias mouseon='tmux setw -g mouse on'
+alias mouseoff='tmux setw -g mouse off'
 alias rebasedev='git pull origin develop --rebase'
 alias td='tmux detach'
 alias ta='tmux attach'
