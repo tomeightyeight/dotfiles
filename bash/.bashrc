@@ -1,7 +1,5 @@
 # .bashrc
 
-# User specific aliases and functions
-
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
@@ -29,11 +27,9 @@ man() {
             man "$@"
 }
 
-alias siteinstall='composer install; npm install;'
 alias gitlog='git log --oneline --decorate'
 alias mouseon='tmux setw -g mouse on'
 alias mouseoff='tmux setw -g mouse off'
-alias rebasedev='git pull origin develop --rebase'
 alias td='tmux detach'
 alias ta='tmux attach'
 alias ls='ls $LS_OPTIONS -alh'
@@ -50,8 +46,5 @@ alias netstat='grc netstat'
 alias ps='grc ps'
 alias tail='grc tail'
 alias cat='grc cat'
-alias bower='bower --allow-root'
 alias artisan='php artisan'
-alias gw='gulp; gulp watch --dev'
-alias bw='boz compile sass -w'
 alias grep='grep --color=auto'
