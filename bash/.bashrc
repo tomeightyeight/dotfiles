@@ -27,6 +27,7 @@ man() {
             man "$@"
 }
 
+alias ungron='gron --ungron'
 alias gitlog='git log --oneline --decorate'
 alias mouseon='tmux setw -g mouse on'
 alias mouseoff='tmux setw -g mouse off'
