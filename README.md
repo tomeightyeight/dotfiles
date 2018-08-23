@@ -1,2 +1,2 @@
 # dotfiles
-A collection of dotfiles and config for Tom Humphris
+A collection of dotfiles and config
