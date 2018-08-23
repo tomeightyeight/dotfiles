@@ -143,6 +143,8 @@
 	<false/>
 	<key>Bell</key>
 	<false/>
+	<key>BellBounce</key>
+	<false/>
 	<key>BellBounceCritical</key>
 	<true/>
 	<key>CursorBlink</key>
@@ -183,7 +185,9 @@
 	<key>ShowCommandKeyInTitle</key>
 	<false/>
 	<key>ShowDimensionsInTitle</key>
-	<false/>
+	<true/>
+	<key>ShowRepresentedURLPathInTitle</key>
+	<true/>
 	<key>ShowShellCommandInTitle</key>
 	<false/>
 	<key>ShowTTYNameInTitle</key>
@@ -215,11 +219,11 @@
 	<key>WindowTitle</key>
 	<string></string>
 	<key>columnCount</key>
-	<integer>140</integer>
+	<integer>165</integer>
 	<key>name</key>
-	<string>Monokai</string>
+	<string>default</string>
 	<key>rowCount</key>
-	<integer>40</integer>
+	<integer>50</integer>
 	<key>type</key>
 	<string>Window Settings</string>
 	<key>warnOnShellCloseAction</key>
